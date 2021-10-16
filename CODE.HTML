@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Check selected Radio Button value using JavaScript.</title>
+        <script type="text/javascript">
+            function checkGender(){				
+                if(document.getElementById('radioMale').checked)
+                    alert("You have selected Male.");
+                else
+                    alert("You have selected Female.");
+            }
+         </script>
+      </head>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <h1>Check selected Radio Button value using JavaScript.</h1>
+        <b>Choose gender: </b><br><br>
+        <input type="radio" id="radioMale" value="Male">Male</input>
+        <input type="radio" id="radioFemale" value="Female">Female</input>
+        <br><br>
+        <input type="button" value="Check Gender" onClick="checkGender()"/>
+     </body>
+  </html>       
+ 
+
+
+
+
+
+    </body>
+</html>
