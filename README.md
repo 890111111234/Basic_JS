@@ -1,1 +1,1 @@
-# Basic_JS
+This project deals with Basic Javascript
